@@ -13,5 +13,14 @@
 
 ### React.lazy와 Suspense 사용
 
+- https://reactjs.org/docs/code-splitting.html#reactlazy
 - 함수형 컴포넌트
 - 네트워크 탭에서 Slow 3G로 바꾼 후 실행하면, 'loading...'이 보임
+- SSR 미지원
+
+### Loadable Components 사용
+
+- 서드파티 라이브러리 `yarn add @loadable/component`
+- https://loadable-components.com/docs/getting-started/
+- SSR 지원
+- 렌더 전 필요할 때 스플리팅 된 파일 불러오기 가능
